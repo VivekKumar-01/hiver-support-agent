@@ -9,3 +9,4 @@ data/raw/*.csv
 *.egg-info/
 data/raw/twcs/*.csv
 venv/
+docs/INTERVIEW_PREP.md
