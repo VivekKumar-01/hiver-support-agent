@@ -1,0 +1,190 @@
+{
+  "accuracy": 0.3,
+  "macro_precision": 0.25217391304347825,
+  "macro_recall": 0.145870076425632,
+  "macro_f1": 0.10423523948701839,
+  "weighted_precision": 0.41547101449275364,
+  "weighted_recall": 0.3,
+  "weighted_f1": 0.1797555393181187,
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      36,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      62,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      18,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      53,
+      0,
+      0,
+      3
+    ]
+  ],
+  "labels": [
+    "account_access",
+    "billing_refund",
+    "cancellation_request",
+    "general_feedback",
+    "order_status",
+    "other",
+    "security_fraud",
+    "shipping_delivery",
+    "technical_issue"
+  ],
+  "per_class_report": {
+    "account_access": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 15.0
+    },
+    "billing_refund": {
+      "precision": 1.0,
+      "recall": 0.25925925925925924,
+      "f1-score": 0.4117647058823529,
+      "support": 27.0
+    },
+    "cancellation_request": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "general_feedback": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 36.0
+    },
+    "order_status": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 7.0
+    },
+    "other": {
+      "precision": 0.26956521739130435,
+      "recall": 1.0,
+      "f1-score": 0.4246575342465753,
+      "support": 62.0
+    },
+    "security_fraud": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 15.0
+    },
+    "shipping_delivery": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 18.0
+    },
+    "technical_issue": {
+      "precision": 1.0,
+      "recall": 0.05357142857142857,
+      "f1-score": 0.1016949152542373,
+      "support": 56.0
+    },
+    "accuracy": 0.3,
+    "macro avg": {
+      "precision": 0.25217391304347825,
+      "recall": 0.145870076425632,
+      "f1-score": 0.10423523948701839,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.41547101449275364,
+      "recall": 0.3,
+      "f1-score": 0.1797555393181187,
+      "support": 240.0
+    }
+  }
+}

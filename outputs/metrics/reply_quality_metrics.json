@@ -1,0 +1,4 @@
+{
+  "status": "Not measured yet",
+  "reason": "No LLM API key available in this sandboxed environment; LLM-as-judge module exists at src/evaluation/llm_judge.py but was not executed. See README.md > LLM-as-judge for how to run it with a key."
+}

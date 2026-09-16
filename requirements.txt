@@ -1,0 +1,25 @@
+# Core (exact versions this project was built and tested against —
+# see README > Installation if you need looser bounds for your environment)
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+matplotlib==3.10.8
+PyYAML==6.0.3
+python-dotenv==1.2.2
+
+# Testing
+pytest>=7.4
+
+# Optional — used automatically if installed, otherwise the pipeline
+# falls back to TF-IDF for retrieval (see src/retrieval/retriever.py).
+# Not installable in the sandbox this project was built in (no internet),
+# so the shipped run used the TF-IDF fallback. Install these on a machine
+# with internet access for higher-quality semantic retrieval.
+sentence-transformers>=2.2
+faiss-cpu>=1.7
+
+# Optional — only needed if generation.mode = "llm_api" in config.yaml
+anthropic>=0.34
+
+# Optional UI (Phase 33 — skipped per the 6-hour priority order, CLI used instead)
+# streamlit>=1.28
