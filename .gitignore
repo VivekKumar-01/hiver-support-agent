@@ -10,3 +10,4 @@ data/raw/*.csv
 data/raw/twcs/*.csv
 venv/
 docs/INTERVIEW_PREP.md
+CHECKLIST_COMPLIANCE.md
